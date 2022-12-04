@@ -28,3 +28,4 @@
 - `pip3 install --upgrade pip` - обновляем pip
 - `pip freeze` - проверка установеленного ПО
 - `deactivate` - выходим из venv
+- `git reset HEAD` - отменить последний `add` 
