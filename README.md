@@ -7,7 +7,7 @@
 - для оформления интерфейса воспользуемся [Bootstrap](https://getbootstrap.com/)
 - разместим наш сайт на сервисе [heroku](https://www.heroku.com/) чтобы он был виден всем
 
-### Инстарументы
+### Инструменты
 - Python
 - Django
 
@@ -25,6 +25,6 @@
 ### Виртульное окружение
 - `python3.10 -m venv venv` - устанавливаем venv
 - `source venv/bin/activate` - запускаем venv
-- `pip install --upgrade pip` - обновляем pip
+- `pip3 install --upgrade pip` - обновляем pip
 - `pip freeze` - проверка установеленного ПО
 - `deactivate` - выходим из venv
