@@ -33,3 +33,6 @@
 - `pip install django` - устанавливаем последнюю версию django (в качестве бибилиотеки)
 - `django-admin startproject <name_project> .` - установка django (в качестве приложения)
 - `python manage.py runserver` - запуск проекта в браузере `http://127.0.0.1:8000/`
+
+## Полезные ссылки
+- [gitignore.io](https://www.toptal.com/developers/gitignore/) - Генерируйте удобные `.gitignore` файлы для вашего проекта
