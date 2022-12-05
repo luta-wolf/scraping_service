@@ -27,6 +27,7 @@
 - `pip install --upgrade pip` - обновляем pip
 - `pip freeze` - проверка установеленных бибилиотек в venv
 - `deactivate` - выходим из venv
+- `pip3 freeze > requirements.txt` - запись усановленных билилотек из venv в txt файл
 - `git reset HEAD` - отменить последний `add`
 ### Установка и запуск Django
 - `pip install django` - устанавливаем последнюю версию django (в качестве бибилиотеки)
