@@ -21,11 +21,14 @@
 ### IDE
 - Vs code (Python от Microsofft и Djaneiro - Django Snippets)
 - Pycharm
-
 ### Виртульное окружение
 - `python3.10 -m venv venv` - устанавливаем venv
 - `source venv/bin/activate` - запускаем venv
-- `pip3 install --upgrade pip` - обновляем pip
-- `pip freeze` - проверка установеленного ПО
+- `pip install --upgrade pip` - обновляем pip
+- `pip freeze` - проверка установеленных бибилиотек в venv
 - `deactivate` - выходим из venv
-- `git reset HEAD` - отменить последний `add` 
+- `git reset HEAD` - отменить последний `add`
+### Установка и запуск Django
+- `pip install django` - устанавливаем последнюю версию django (в качестве бибилиотеки)
+- `django-admin startproject <name_project> .` - установка django (в качестве приложения)
+- `python manage.py runserver` - запуск проекта в браузере `http://127.0.0.1:8000/`
