@@ -33,9 +33,10 @@
 - `pip install django` - устанавливаем последнюю версию django (в качестве бибилиотеки)
 - `django-admin startproject <name_project> .` - установка django (в качестве приложения)
 - `python manage.py runserver` - запуск проекта в браузере `http://127.0.0.1:8000/`
-- `python3 manage.py startapp <name_project> ` - установка нашего приложения
+- `python3 manage.py startapp <name_project> ` - создание приложения
 - `python3 manage.py migrate` - выполняем миграции
 - `python3 manage.py createsuperuser` - создание суперюзера
+- `pip install requests` - установка библиотеки requests для обмена данными
 
 ## Полезные ссылки
 - [gitignore.io](https://www.toptal.com/developers/gitignore/) - Генерируйте удобные `.gitignore` файлы для вашего проекта
