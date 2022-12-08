@@ -38,6 +38,7 @@
 - `pip install requests` - установка библиотеки requests
 - `python3 manage.py migrate` - запуск миграций
 - `django-admin startproject <name_project> .` - установка django (в качестве приложения)
+- `python manage.py createsuperuser` - создание суперюзера
 - `python manage.py runserver` - запуск проекта в браузере `http://127.0.0.1:8000/`
 
 ## Полезные ссылки
