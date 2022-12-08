@@ -28,16 +28,16 @@
 - `pip freeze` - проверка установеленных бибилиотек в venv
 - `deactivate` - выходим из venv
 - `pip3 freeze > requirements.txt` - запись усановленных билилотек из venv в txt файл
+- `pip install -r requirements.txt`- установить все требуемые библиотеки python в новом 
+окружении 
+- `pip install requests` - установка библиотеки requests
+### Немного полезных команд git
 - `git reset HEAD` - отменить последний `add`
+- `git reset --hard` - сбросить все изменеия до последнего комита (может привести к потере результатов работы)
 ### Установка и запуск Django
 - `pip install django` - устанавливаем последнюю версию django (в качестве бибилиотеки)
 - `django-admin startproject <name_project> .` - установка django (в качестве приложения)
 - `python manage.py runserver` - запуск проекта в браузере `http://127.0.0.1:8000/`
-- `python3 manage.py startapp <name_project> ` - создание приложения
-- `python3 manage.py migrate` - выполняем миграции
-- `python3 manage.py createsuperuser` - создание суперюзера
-- `pip install requests` - установка библиотеки requests для обмена данными
 
 ## Полезные ссылки
 - [gitignore.io](https://www.toptal.com/developers/gitignore/) - Генерируйте удобные `.gitignore` файлы для вашего проекта
-- [css bootstap](https://www.bootstrapcdn.com/)
