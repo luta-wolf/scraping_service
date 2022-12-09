@@ -36,6 +36,7 @@
 ### Установка и запуск Django
 - `pip install django` - устанавливаем последнюю версию django (в качестве бибилиотеки)
 - `pip install requests` - установка библиотеки requests
+- `python3 manage.py makemigrations` - создаем миргации
 - `python3 manage.py migrate` - запуск миграций
 - `django-admin startproject <name_project> .` - установка django (в качестве приложения)
 - `python manage.py createsuperuser` - создание суперюзера
