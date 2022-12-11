@@ -1,5 +1,8 @@
 # Сервис по сбору и рассылки вакансий
 
+<details>
+<summary>Описание проекта</summary>
+
 ### Научимся
 - как скрапить данные с сайтов
 - как работает Django и как работают его компонеты между собой
@@ -21,6 +24,8 @@
 ### IDE
 - Vs code (Python от Microsofft и Djaneiro - Django Snippets)
 - Pycharm
+</details>
+
 ### Виртульное окружение
 - `python3.10 -m venv venv` - устанавливаем venv
 - `source venv/bin/activate` - запускаем venv
@@ -48,6 +53,7 @@
 
 <details>
 <summary>Пошаговое выполнение проекта</summary>
+
 - `part1-2, 001` Схема работы джанга и его компонентов
 <img width="1615" alt="image" src="https://user-images.githubusercontent.com/58044383/206925171-dbd04e9f-4456-4301-b852-f20cc8bc8925.png">
 
