@@ -32,9 +32,8 @@
 - `pip install --upgrade pip` - обновляем pip
 - `pip freeze` - проверка установеленных бибилиотек в venv
 - `deactivate` - выходим из venv
-- `pip3 freeze > requirements.txt` - запись усановленных билилотек из venv в txt файл
-- `pip install -r requirements.txt`- установить все требуемые библиотеки python в новом
-окружении
+- `pip3 freeze > requirements.txt` - запись установеленных билилотек из venv в txt файл
+- `pip install -r requirements.txt`- установить все требуемые библиотеки python в новом окружении
 ### Немного полезных команд git
 - `git reset HEAD` - отменить последний `add`
 - `git reset --hard` - сбросить все изменеия до последнего комита (может привести к потере результатов работы)
