@@ -26,6 +26,9 @@
 - Pycharm
 </details>
 
+<details>
+<summary>Команды</summary>
+
 ### Виртульное окружение
 - `python3.10 -m venv venv` - устанавливаем venv
 - `source venv/bin/activate` - запускаем venv
@@ -45,9 +48,10 @@
 - `django-admin startproject <name_project> .` - установка django (в качестве приложения)
 - `python manage.py createsuperuser` - создание суперюзера
 - `python manage.py runserver` - запуск проекта в браузере `http://127.0.0.1:8000/`
+</details>
 
 ## Полезные ссылки
-- [gitignore.io](https://www.toptal.com/developers/gitignore/) - Генерируйте удобные `.gitignore` файлы для вашего проекта
+- [gitignore.io](https://www.toptal.com/developers/gitignore/) - генерирует удобные `.gitignore` файлы для нашего проекта
 
 
 <details>
