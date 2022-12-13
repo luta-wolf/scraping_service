@@ -58,4 +58,7 @@
 
 - `part1-2, 003` Перевел админку на русский
 <img width="1262" alt="image" src="https://user-images.githubusercontent.com/58044383/206928854-10938b5d-58b6-42bb-86b6-99957e4205c8.png">
+
+- `part1-2, 004` Подключил страницу `/home`
+  <img width="338" alt="image" src="https://user-images.githubusercontent.com/58044383/207385563-3a193cd2-e2ff-4754-99c8-cb15f3a5aaca.png">
 </details>
