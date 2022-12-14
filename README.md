@@ -65,4 +65,7 @@
 
 - `part1-2, 004` Подключил страницу `/home`
   <img width="338" alt="image" src="https://user-images.githubusercontent.com/58044383/207385563-3a193cd2-e2ff-4754-99c8-cb15f3a5aaca.png">
+
+- `part1-2, 005` Добавил текущую дату `/home`
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/58044383/207696337-bfdc0b17-a5bc-4994-b9e5-0a17aad106e9.png">
 </details>
