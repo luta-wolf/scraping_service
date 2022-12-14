@@ -46,6 +46,7 @@
 - `python manage.py makemigrations` - создаем миргации
 - `python manage.py migrate` - запуск миграций (базовые настройки для БД)
 - `django-admin startproject <name_project> .` - установка django (в качестве приложения)
+- `python manage.py startapp <name_project> .` - установка django (в качестве приложения)
 - `python manage.py createsuperuser` - создание суперюзера
 - `python manage.py runserver` - запуск проекта в браузере `http://127.0.0.1:8000/`
 </details>
@@ -64,8 +65,11 @@
 <img width="1262" alt="image" src="https://user-images.githubusercontent.com/58044383/206928854-10938b5d-58b6-42bb-86b6-99957e4205c8.png">
 
 - `part1-2, 004` Подключил страницу `/home`
-  <img width="338" alt="image" src="https://user-images.githubusercontent.com/58044383/207385563-3a193cd2-e2ff-4754-99c8-cb15f3a5aaca.png">
+<img width="338" alt="image" src="https://user-images.githubusercontent.com/58044383/207385563-3a193cd2-e2ff-4754-99c8-cb15f3a5aaca.png">
 
-- `part1-2, 005` Добавил текущую дату `/home`
+- `part1-2, 005` Добавил текущую дату на страницу `/home`
 <img width="400" alt="image" src="https://user-images.githubusercontent.com/58044383/207696337-bfdc0b17-a5bc-4994-b9e5-0a17aad106e9.png">
+
+- `part1-2, 008` Создание миграций - таблички `City` в БД
+<img width="708" alt="image" src="https://user-images.githubusercontent.com/58044383/207704015-c049f59e-7913-43de-9d0d-29ea812be8e1.png">
 </details>
