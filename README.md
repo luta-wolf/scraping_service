@@ -53,6 +53,8 @@
 
 ## Полезные ссылки
 - [gitignore.io](https://www.toptal.com/developers/gitignore/) - генерирует удобные `.gitignore` файлы для нашего проекта
+- [Django](https://www.djangoproject.com/) - официальная документация
+- [Django fun](https://django.fun/) - документация на русском
 
 
 <details>
@@ -72,4 +74,7 @@
 
 - `part1-2, 008` Создание миграций - таблички `City` в БД
 <img width="708" alt="image" src="https://user-images.githubusercontent.com/58044383/207704015-c049f59e-7913-43de-9d0d-29ea812be8e1.png">
+
+`part1-2, 008` Вывел таблицу `City` `/admin` + название городов выглядят как они есть
+<img width="1208" alt="image" src="https://user-images.githubusercontent.com/58044383/207709105-53b5ac51-0fa6-42bd-b684-223d53e22f95.png">
 </details>
