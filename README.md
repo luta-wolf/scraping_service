@@ -77,4 +77,8 @@
 
 `part1-2, 008` Вывел таблицу `City` `/admin` + название городов выглядят как они есть
 <img width="1208" alt="image" src="https://user-images.githubusercontent.com/58044383/207709105-53b5ac51-0fa6-42bd-b684-223d53e22f95.png">
+
+`part1-2, 010` - Создал в БД таблицу `Language` (подключаются через миграции)
+<img width="860" alt="image" src="https://user-images.githubusercontent.com/58044383/207958323-64aabf8a-70e0-4a24-b39b-ee96e5effe6f.png">
+<img width="1143" alt="image" src="https://user-images.githubusercontent.com/58044383/207958624-7997aea5-b180-4fff-9b6c-6f930dc73508.png">
 </details>
