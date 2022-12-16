@@ -81,4 +81,8 @@
 `part1-2, 010` - Создал в БД таблицу `Language` (подключаются через миграции)
 <img width="860" alt="image" src="https://user-images.githubusercontent.com/58044383/207958323-64aabf8a-70e0-4a24-b39b-ee96e5effe6f.png">
 <img width="1143" alt="image" src="https://user-images.githubusercontent.com/58044383/207958624-7997aea5-b180-4fff-9b6c-6f930dc73508.png">
+
+`part1-2, 013` - Создал в БД таблицу `Vacancy` (подключаются через миграции)
+<img width="706" alt="image" src="https://user-images.githubusercontent.com/58044383/208195341-cb7df05b-bde3-44d5-a2ba-0104ac81b25b.png">
+<img width="1167" alt="image" src="https://user-images.githubusercontent.com/58044383/208195443-0061f077-9b71-4a0a-803f-808a7e852c76.png">
 </details>
