@@ -7,23 +7,17 @@
 - как скрапить данные с сайтов
 - как работает Django и как работают его компонеты между собой
 - запускать процессы вне Django
+- пользоваться бибилиотеками `requests` и `beautiful soup`
 - для оформления интерфейса воспользуемся [Bootstrap](https://getbootstrap.com/)
 - разместим наш сайт на сервисе [heroku](https://www.heroku.com/) чтобы он был виден всем
-
-### Инструменты
-- Python
-- Django
-
-### Для скрапинга будут использоваться 2 бибилиотеки
-- requests
-- beautiful soup
-
-### Оформление сайта
-- Bootstrap
 
 ### IDE
 - Vs code (Python от Microsofft и Djaneiro - Django Snippets)
 - Pycharm
+
+### Полезное
+- [Обучающий видеокурс на Udemy.com](https://www.udemy.com/course/site-on-django-3/)
+- [Код](https://github.com/olegJF/scraping_service)
 </details>
 
 <details>
