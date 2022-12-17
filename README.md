@@ -43,6 +43,8 @@
 - `python manage.py startapp <name_project> .` - установка django (в качестве приложения)
 - `python manage.py createsuperuser` - создание суперюзера
 - `python manage.py runserver` - запуск проекта в браузере `http://127.0.0.1:8000/`
+- `python manage.py shell` - запуск интерактивной консоли
+- `pip install ipython` - установка ipython (прокаченный терминал)
 </details>
 
 ## Полезные ссылки
