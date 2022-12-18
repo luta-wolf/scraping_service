@@ -83,6 +83,6 @@
 <img width="1167" alt="image" src="https://user-images.githubusercontent.com/58044383/208195443-0061f077-9b71-4a0a-803f-808a7e852c76.png">
 
 `part1-2, 014` - Создание записей в БД через внутренний интерпретатор
-<img width="1167" alt="image" src="https://user-images.githubusercontent.com/58044383/208195443-0061f077-9b71-4a0a-803f-808a7e852c76.png">
+<img width="1305" alt="image" src="https://user-images.githubusercontent.com/58044383/208277153-06f5f299-0c15-457b-a298-9829aefb1b42.png">
 <img width="1130" alt="image" src="https://user-images.githubusercontent.com/58044383/208276215-8d831e52-af52-49f1-bb54-0ce9ce019502.png">
 </details>
