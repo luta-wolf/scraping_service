@@ -83,23 +83,23 @@
 - `part1-2, 008` Создание миграций - таблички `City` в БД
 <img width="708" alt="image" src="https://user-images.githubusercontent.com/58044383/207704015-c049f59e-7913-43de-9d0d-29ea812be8e1.png">
 
-`part1-2, 008` Вывел таблицу `City` `/admin` + название городов выглядят как они есть
+- `part1-2, 008` Вывел таблицу `City` `/admin` + название городов выглядят как они есть
 <img width="1208" alt="image" src="https://user-images.githubusercontent.com/58044383/207709105-53b5ac51-0fa6-42bd-b684-223d53e22f95.png">
 
-`part1-2, 010` - Создал в БД таблицу `Language` (подключаются через миграции)
+- `part1-2, 010` - Создал в БД таблицу `Language` (подключаются через миграции)
 <img width="860" alt="image" src="https://user-images.githubusercontent.com/58044383/207958323-64aabf8a-70e0-4a24-b39b-ee96e5effe6f.png">
 <img width="1143" alt="image" src="https://user-images.githubusercontent.com/58044383/207958624-7997aea5-b180-4fff-9b6c-6f930dc73508.png">
 
-`part1-2, 013` - Создал в БД таблицу `Vacancy` (подключаются через миграции)
+- `part1-2, 013` - Создал в БД таблицу `Vacancy` (подключаются через миграции)
 <img width="706" alt="image" src="https://user-images.githubusercontent.com/58044383/208195341-cb7df05b-bde3-44d5-a2ba-0104ac81b25b.png">
 <img width="1167" alt="image" src="https://user-images.githubusercontent.com/58044383/208195443-0061f077-9b71-4a0a-803f-808a7e852c76.png">
 
-`part1-2, 014` - Создание записей в БД через внутренний интерпретатор - кварисет
+- `part1-2, 014` - Создание записей в БД через внутренний интерпретатор - кварисет
 <img width="1305" alt="image" src="https://user-images.githubusercontent.com/58044383/208277153-06f5f299-0c15-457b-a298-9829aefb1b42.png">
 <img width="1130" alt="image" src="https://user-images.githubusercontent.com/58044383/208276215-8d831e52-af52-49f1-bb54-0ce9ce019502.png">
 
-`part1-2, 015` - Объясняет QuerySet
-`part1-2, 018` - Подключил bootstrap, на стр `home` вывел из БД назване вакансии, url и ее описание
+- `part1-2, 015` - Объясняет QuerySet
+- `part1-2, 018` - Подключил bootstrap, на стр `home` вывел из БД назване вакансии, url и ее описание
 <img width="1057" alt="image" src="https://user-images.githubusercontent.com/58044383/208319970-abd5df50-c3ca-4481-a9c8-b6ae8ab6783d.png">
 
 </details>
