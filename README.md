@@ -35,7 +35,7 @@
 - `git reset HEAD` - отменить последний `add`
 - `git reset --hard` - сбросить все изменения до последнего комита (может привести к потере результатов работы)
 ### Установка и запуск Django
-- `pip install django` - устанавливка последней версии django (в качестве бибилиотеки)
+- `pip install django` - установка последней версии django (в качестве бибилиотеки)
 - `pip install requests` - установка библиотеки requests
 - `python manage.py makemigrations` - создаем миргации (будущие таблицы в БД)
 - `python manage.py migrate` - запуск миграций (базовые настройки для БД)
