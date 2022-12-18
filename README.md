@@ -43,8 +43,8 @@
 - `python manage.py startapp <name_project> .` - установка django (в качестве приложения)
 - `python manage.py createsuperuser` - создание суперюзера
 - `python manage.py runserver` - запуск проекта в браузере `http://127.0.0.1:8000/`
-- `python manage.py shell` - запуск интерактивной консоли
-- `pip install ipython` - установка ipython (прокаченный терминал)
+- `python manage.py shell` - запуск интерпретатора, который работает с внутренней структоурой django и базой данных
+- `pip install ipython` - установка ipython (прокаченный интерпретатора), который работает с внутренней структоурой django и базой данных
 </details>
 
 ## Полезные ссылки
@@ -81,4 +81,8 @@
 `part1-2, 013` - Создал в БД таблицу `Vacancy` (подключаются через миграции)
 <img width="706" alt="image" src="https://user-images.githubusercontent.com/58044383/208195341-cb7df05b-bde3-44d5-a2ba-0104ac81b25b.png">
 <img width="1167" alt="image" src="https://user-images.githubusercontent.com/58044383/208195443-0061f077-9b71-4a0a-803f-808a7e852c76.png">
+
+`part1-2, 014` - Создание записей в БД через внутренний интерпретатор
+<img width="1167" alt="image" src="https://user-images.githubusercontent.com/58044383/208195443-0061f077-9b71-4a0a-803f-808a7e852c76.png">
+<img width="1130" alt="image" src="https://user-images.githubusercontent.com/58044383/208276215-8d831e52-af52-49f1-bb54-0ce9ce019502.png">
 </details>
