@@ -24,20 +24,20 @@
 <summary>Команды</summary>
 
 ### Виртульное окружение
-- `python3.10 -m venv venv` - устанавливаем venv
-- `source venv/bin/activate` - запускаем venv
+- `python3.10 -m venv venv` - установка venv
+- `source venv/bin/activate` - запуск venv
 - `pip install --upgrade pip` - обновляем pip
-- `pip freeze` - проверка установеленных бибилиотек в venv
-- `deactivate` - выходим из venv
-- `pip3 freeze > requirements.txt` - запись установеленных билилотек из venv в txt файл
-- `pip install -r requirements.txt`- установить все требуемые библиотеки python в новом окружении
-### Немного полезных команд git
+- `pip freeze` - просмотр установеленных бибилиотек в venv
+- `deactivate` - выход из venv
+- `pip3 freeze > requirements.txt` - запись установленных библиотек из venv в txt файл
+- `pip install -r requirements.txt`- установка всех требуемыех библиотек в venv
+### Команды git
 - `git reset HEAD` - отменить последний `add`
-- `git reset --hard` - сбросить все изменеия до последнего комита (может привести к потере результатов работы)
+- `git reset --hard` - сбросить все изменения до последнего комита (может привести к потере результатов работы)
 ### Установка и запуск Django
-- `pip install django` - устанавливаем последнюю версию django (в качестве бибилиотеки)
+- `pip install django` - устанавливка последней версии django (в качестве бибилиотеки)
 - `pip install requests` - установка библиотеки requests
-- `python manage.py makemigrations` - создаем миргации
+- `python manage.py makemigrations` - создаем миргации (будущие таблицы в БД)
 - `python manage.py migrate` - запуск миграций (базовые настройки для БД)
 - `django-admin startproject <name_project> .` - установка django (в качестве приложения)
 - `python manage.py startapp <name_project> .` - установка django (в качестве приложения)
