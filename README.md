@@ -102,4 +102,6 @@
 - `part1-2, 018` - Подключил bootstrap, на стр `home` вывел из БД назване вакансии, url и ее описание
 <img width="1057" alt="image" src="https://user-images.githubusercontent.com/58044383/208319970-abd5df50-c3ca-4481-a9c8-b6ae8ab6783d.png">
 
+- `part1-2, 020` - Сделал шапку, вложил вакансии в красивые формочки, середина вложена в контейнер, т.е. расположена строго по центру.
+<img width="1046" alt="image" src="https://user-images.githubusercontent.com/58044383/208492639-405ac281-bf78-4e16-95d6-9a37d1eba99e.png">
 </details>
