@@ -109,5 +109,5 @@
 
 - `021` - Работа с `Live Tebplates` в `PyCharm`
 - `021` - Добавил к описанию город, язык и дату появления объявления.
-<img width="1207" alt="image" src="https://user-images.githubusercontent.com/58044383/208549528-126e78b5-3d20-457b-b7d5-db6511fd49db.png">
+<img width="1197" alt="image" src="https://user-images.githubusercontent.com/58044383/208549969-3993c778-4875-417e-bc6c-8f017bf57bab.png">
 </details>
