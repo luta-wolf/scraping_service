@@ -106,4 +106,8 @@
 
 - `020` - Сделал шапку, вложил вакансии в красивые формочки, середина вложена в контейнер, т.е. расположена строго по центру.
 <img width="1046" alt="image" src="https://user-images.githubusercontent.com/58044383/208492639-405ac281-bf78-4e16-95d6-9a37d1eba99e.png">
+
+- `021` - Работа с `Live Tebplates` в `PyCharm`
+- `021` - Добавил к описанию город, язык и дату появления объявления.
+<img width="1207" alt="image" src="https://user-images.githubusercontent.com/58044383/208549528-126e78b5-3d20-457b-b7d5-db6511fd49db.png">
 </details>
