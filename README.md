@@ -56,6 +56,8 @@
 - `python manage.py shell` - запуск интерпретатора, который работает с внутренней структоурой django и базой данных
 - `pip install ipython` - установка ipython (прокаченный интерпретатора), который работает с внутренней структоурой django и базой данных
 </details>
+<details>
+<summary>Полезные ссылки</summary>
 
 ## Полезные ссылки
 - [gitignore.io](https://www.toptal.com/developers/gitignore/) - генерирует удобные `.gitignore` файлы для нашего проекта
@@ -64,44 +66,44 @@
 - [bootstrap color](https://getbootstrap.com/docs/5.2/customize/color/#theme-colors) - цветовая палитра bootstrap
 - [MATERIAL DESIGN color](https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors) - цветовая палитра MD
 
-
+</details>
 <details>
-<summary>Пошаговое выполнение проекта</summary>
+<summary>Пошаговое выполнение проекта часть 2</summary>
 
-- `part1-2, 001` Схема работы джанга и его компонентов
+- `001` Схема работы джанга и его компонентов
 <img width="1615" alt="image" src="https://user-images.githubusercontent.com/58044383/206925171-dbd04e9f-4456-4301-b852-f20cc8bc8925.png">
 
-- `part1-2, 003` Перевел админку на русский
+- `003` Перевел админку на русский
 <img width="1262" alt="image" src="https://user-images.githubusercontent.com/58044383/206928854-10938b5d-58b6-42bb-86b6-99957e4205c8.png">
 
-- `part1-2, 004` Подключил страницу `/home`
+- `004` Подключил страницу `/home`
 <img width="338" alt="image" src="https://user-images.githubusercontent.com/58044383/207385563-3a193cd2-e2ff-4754-99c8-cb15f3a5aaca.png">
 
-- `part1-2, 005` Добавил текущую дату на страницу `/home`
+- `005` Добавил текущую дату на страницу `/home`
 <img width="400" alt="image" src="https://user-images.githubusercontent.com/58044383/207696337-bfdc0b17-a5bc-4994-b9e5-0a17aad106e9.png">
 
-- `part1-2, 008` Создание миграций - таблички `City` в БД
+- `008` Создание миграций - таблички `City` в БД
 <img width="708" alt="image" src="https://user-images.githubusercontent.com/58044383/207704015-c049f59e-7913-43de-9d0d-29ea812be8e1.png">
 
-- `part1-2, 008` Вывел таблицу `City` `/admin` + название городов выглядят как они есть
+- `008` Вывел таблицу `City` `/admin` + название городов выглядят как они есть
 <img width="1208" alt="image" src="https://user-images.githubusercontent.com/58044383/207709105-53b5ac51-0fa6-42bd-b684-223d53e22f95.png">
 
-- `part1-2, 010` - Создал в БД таблицу `Language` (подключаются через миграции)
+- `010` - Создал в БД таблицу `Language` (подключаются через миграции)
 <img width="860" alt="image" src="https://user-images.githubusercontent.com/58044383/207958323-64aabf8a-70e0-4a24-b39b-ee96e5effe6f.png">
 <img width="1143" alt="image" src="https://user-images.githubusercontent.com/58044383/207958624-7997aea5-b180-4fff-9b6c-6f930dc73508.png">
 
-- `part1-2, 013` - Создал в БД таблицу `Vacancy` (подключаются через миграции)
+- `013` - Создал в БД таблицу `Vacancy` (подключаются через миграции)
 <img width="706" alt="image" src="https://user-images.githubusercontent.com/58044383/208195341-cb7df05b-bde3-44d5-a2ba-0104ac81b25b.png">
 <img width="1167" alt="image" src="https://user-images.githubusercontent.com/58044383/208195443-0061f077-9b71-4a0a-803f-808a7e852c76.png">
 
-- `part1-2, 014` - Создание записей в БД через внутренний интерпретатор - кварисет
+- `014` - Создание записей в БД через внутренний интерпретатор - кварисет
 <img width="1305" alt="image" src="https://user-images.githubusercontent.com/58044383/208277153-06f5f299-0c15-457b-a298-9829aefb1b42.png">
 <img width="1130" alt="image" src="https://user-images.githubusercontent.com/58044383/208276215-8d831e52-af52-49f1-bb54-0ce9ce019502.png">
 
-- `part1-2, 015` - Объясняет QuerySet
-- `part1-2, 018` - Подключил bootstrap, на стр `home` вывел из БД назване вакансии, url и ее описание
+- `015` - Объясняет QuerySet
+- `018` - Подключил bootstrap, на стр `home` вывел из БД назване вакансии, url и ее описание
 <img width="1057" alt="image" src="https://user-images.githubusercontent.com/58044383/208319970-abd5df50-c3ca-4481-a9c8-b6ae8ab6783d.png">
 
-- `part1-2, 020` - Сделал шапку, вложил вакансии в красивые формочки, середина вложена в контейнер, т.е. расположена строго по центру.
+- `020` - Сделал шапку, вложил вакансии в красивые формочки, середина вложена в контейнер, т.е. расположена строго по центру.
 <img width="1046" alt="image" src="https://user-images.githubusercontent.com/58044383/208492639-405ac281-bf78-4e16-95d6-9a37d1eba99e.png">
 </details>
