@@ -119,4 +119,7 @@
 - `001` - Разместил окошки ввода города и языка
 - В командной строке происходит поиск по введеным параметрам
 <img width="620" alt="image" src="https://user-images.githubusercontent.com/58044383/208749889-94657010-6260-43e2-be28-cfc0bfd3f517.png">
+
+- `003` - С помощью форм Django поменял окошки
+<img width="419" alt="image" src="https://user-images.githubusercontent.com/58044383/208787427-f9a66e54-9026-4e84-ac09-0e5d6be95678.png">
 </details>
