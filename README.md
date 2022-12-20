@@ -111,3 +111,11 @@
 - `021` - Добавил к описанию город, язык и дату появления объявления.
 <img width="1197" alt="image" src="https://user-images.githubusercontent.com/58044383/208549969-3993c778-4875-417e-bc6c-8f017bf57bab.png">
 </details>
+
+
+<details>
+<summary>Пошаговое выполнение проекта часть 3</summary>
+
+- `001` - Разместил 2 окошка ввода, в командной строки происходит поиск по городу и языку, введеному в окошках
+<img width="620" alt="image" src="https://user-images.githubusercontent.com/58044383/208749889-94657010-6260-43e2-be28-cfc0bfd3f517.png">
+</details>
