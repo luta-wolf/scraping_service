@@ -125,4 +125,7 @@
 
 - `004` - Наведение красоты - поменял окошки и кнопку
 <img width="691" alt="image" src="https://user-images.githubusercontent.com/58044383/208990727-68fe767f-19a2-4219-8f34-3f5d28d07ebe.png">
+
+- `005` - Выравнивание кнопок по центру
+<img width="862" alt="image" src="https://user-images.githubusercontent.com/58044383/208997138-6181a255-309e-4955-a77c-9d878c35f074.png">
 </details>

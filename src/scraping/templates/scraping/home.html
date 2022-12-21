@@ -12,9 +12,13 @@
 				<small>{{obj.timestamp | date:"d M Y"}}</small></p>
 		</div>
 	</div>
+	{% empty %}
+	<div class="col-md-8 mx-auto">
+		<h4>К сожалению по Вашему запросу ничего не найдено.</h4>
+	</div>
 	{% endfor %}
-<div class="row mx-auto">
-	<div class="col-md-4">
+<div class="row">
+	<div class="col-md-4 mx-auto">
 		<form method="GET" action="">
 			<div class="form-group">
 				{{ form.as_p  }}
