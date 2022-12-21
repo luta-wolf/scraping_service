@@ -122,4 +122,7 @@
 
 - `003` - С помощью форм Django поменял окошки
 <img width="419" alt="image" src="https://user-images.githubusercontent.com/58044383/208787427-f9a66e54-9026-4e84-ac09-0e5d6be95678.png">
+
+`004` - Наведение красоты - поменял окошки и кнопку 
+<img width="691" alt="image" src="https://user-images.githubusercontent.com/58044383/208990727-68fe767f-19a2-4219-8f34-3f5d28d07ebe.png">
 </details>
