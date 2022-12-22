@@ -54,6 +54,9 @@
 - `python manage.py createsuperuser` - создание суперюзера
 - `python manage.py runserver` - запуск проекта в браузере `http://127.0.0.1:8000/`
 - `python manage.py shell` - запуск интерпретатора, который работает с внутренней структоурой django и базой данных
+- `python manage.py dumpdata scraping  > <file_name>.json` - сохранение базы даннх в `json` формат (в одну строку)
+- `manage.py dumpdata --indent 2 scraping  > <file_name>.json` - сохранение базы даннх в более удобный для чтения `json` формат
+- `python manage.py loaddata <file_name>.json` - загрузка бд из `json` файла
 - `pip install ipython` - установка ipython (прокаченный интерпретатора), который работает с внутренней структоурой django и базой данных
 </details>
 <details>
@@ -133,6 +136,9 @@
 <summary>Пошаговое выполнение проекта часть 4</summary>
 
 - `001` - Лекция об юзераз и абстрактных юзерах
-- `002` - создали новое приложение `accounts` для авторизиции юзеров
-
+- `002` - Создали новое приложение `accounts` для авторизиции и переопределения [юзеров](https://docs.djangoproject.com/en/3.0/topics/auth/customizing/#a-full-example)
+- `003` - Сохранили базу данный в `json` формат
+- `004` - Удаление старой базы `db.sqlite3`, удаление файлов и папки `scraping/migrations`, кроме файла `__init__.py`, создание новой бд и новых миграций
+<img width="820" alt="image" src="https://user-images.githubusercontent.com/58044383/209208852-77da0140-fa95-4e10-b269-1691e65a6b14.png">
+<img width="1357" alt="image" src="https://user-images.githubusercontent.com/58044383/209210717-18158b07-417f-4a32-95ef-be9e094f14b4.png">
 </details>
