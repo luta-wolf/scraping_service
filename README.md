@@ -112,7 +112,6 @@
 <img width="1197" alt="image" src="https://user-images.githubusercontent.com/58044383/208549969-3993c778-4875-417e-bc6c-8f017bf57bab.png">
 </details>
 
-
 <details>
 <summary>Пошаговое выполнение проекта часть 3</summary>
 
@@ -128,4 +127,12 @@
 
 - `005` - Выравнивание кнопок по центру
 <img width="862" alt="image" src="https://user-images.githubusercontent.com/58044383/208997138-6181a255-309e-4955-a77c-9d878c35f074.png">
+</details>
+
+<details>
+<summary>Пошаговое выполнение проекта часть 4</summary>
+
+- `001` - Лекция об юзераз и абстрактных юзерах
+- `002` - создали новое приложение `accounts` для авторизиции юзеров
+
 </details>
