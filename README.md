@@ -142,3 +142,8 @@
 <img width="820" alt="image" src="https://user-images.githubusercontent.com/58044383/209208852-77da0140-fa95-4e10-b269-1691e65a6b14.png">
 <img width="1357" alt="image" src="https://user-images.githubusercontent.com/58044383/209210717-18158b07-417f-4a32-95ef-be9e094f14b4.png">
 </details>
+
+<details>
+<summary>Часть 5 - Получение данный с сайтов с вакансиями (скрапинг)</summary>
+- `001` - Несколько слов о том, как получать данные с сайтов.
+</details>
