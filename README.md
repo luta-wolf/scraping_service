@@ -70,8 +70,10 @@
 - [MATERIAL DESIGN color](https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors) - цветовая палитра MD
 
 </details>
+
+### Пошаговое выполнение проекта
 <details>
-<summary>Пошаговое выполнение проекта часть 2</summary>
+<summary>Часть 2 - Django. Старт проекта и создание приложений</summary>
 
 - `001` Схема работы джанга и его компонентов
 <img width="1615" alt="image" src="https://user-images.githubusercontent.com/58044383/206925171-dbd04e9f-4456-4301-b852-f20cc8bc8925.png">
@@ -116,7 +118,7 @@
 </details>
 
 <details>
-<summary>Пошаговое выполнение проекта часть 3</summary>
+<summary>Часть 3 - Форма. Какие формы бывают и как с ними работать</summary>
 
 - `001` - Разместил окошки ввода города и языка
 - В командной строке происходит поиск по введеным параметрам
@@ -133,7 +135,7 @@
 </details>
 
 <details>
-<summary>Пошаговое выполнение проекта часть 4</summary>
+<summary>Часть 4 - Приложение accounts</summary>
 
 - `001` - Лекция об юзераз и абстрактных юзерах
 - `002` - Создали новое приложение `accounts` для авторизиции и переопределения [юзеров](https://docs.djangoproject.com/en/3.0/topics/auth/customizing/#a-full-example)
@@ -145,5 +147,6 @@
 
 <details>
 <summary>Часть 5 - Получение данный с сайтов с вакансиями (скрапинг)</summary>
+
 - `001` - Несколько слов о том, как получать данные с сайтов.
 </details>
