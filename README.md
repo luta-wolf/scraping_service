@@ -159,18 +159,18 @@
 <img width="862" alt="image" src="https://user-images.githubusercontent.com/58044383/209395485-4dae3cc0-4a25-42dd-8743-1f92d28318b6.png">
 
 - `003` - Принципы поиска данных внутри html-текста
-	- Блок со всеми вакансиями
+	Блок со всеми вакансиями `<div class="bloko-columns-wrapper">`
 <img width="1199" alt="image" src="https://user-images.githubusercontent.com/58044383/209450248-78bbdb21-d769-4d30-b66a-952be7ecbc8d.png">
 
-	- Блок с одной вакансией
+	Блок с одной вакансией `<div class="vacancy-serp-item__layout">`
 <img width="772" alt="image" src="https://user-images.githubusercontent.com/58044383/209450259-2d8b77c6-c357-4288-86ef-f7e7e401d0b2.png">
 
-	- Блок с названием вакансии и ссылкой на нее
+	Блок с названием вакансии и ссылкой на нее `<a class="serp-item__title" `
 <img width="770" alt="image" src="https://user-images.githubusercontent.com/58044383/209450270-d3b41d28-6406-4f3c-a0cb-b28592351836.png">
 
-	- Блок с Названием компании и ссылкой на нее
+	Блок с Названием компании и ссылкой на нее `<div class="vacancy-serp-item__meta-info-company">`
 <img width="768" alt="image" src="https://user-images.githubusercontent.com/58044383/209450283-f4c174d4-3ee0-4525-b59b-4c48fcd60d07.png">
 
-	- Блок с описанием вакансии
+	Блок с описанием вакансии `<div class="g-user-content">`
 <img width="763" alt="image" src="https://user-images.githubusercontent.com/58044383/209450308-7217f852-5c6e-4885-890d-386ba62324b4.png">
 </details>
