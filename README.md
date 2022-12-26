@@ -174,7 +174,7 @@
 	Блок с описанием вакансии `<div class="g-user-content">`
 <img width="763" alt="image" src="https://user-images.githubusercontent.com/58044383/209450308-7217f852-5c6e-4885-890d-386ba62324b4.png">
 
-- `004` Сбор (скрапинг) данных с сайта hh.ru4
+- `004` Сбор (скрапинг) данных с сайта hh.ru
 - `005` Финализируем функционал для hh.ru
 <img width="1112" alt="image" src="https://user-images.githubusercontent.com/58044383/209480231-62d6a4ca-80df-40dd-9c26-2b90f7140a6e.png">
 </details>
