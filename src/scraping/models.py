@@ -2,6 +2,10 @@ from django.db import models
 from django.db.models import JSONField
 from . utils import from_cyrillic_to_eng
 
+def default_urls():
+	return {'hh': '', 'habr': '', 'job': ''}
+
+
 # Create your models here.
 
 # Создаем таблицы БД
@@ -72,5 +76,18 @@ class Vacancy(models.Model):
 		return self.title
 
 class Error(models.Model):
-    timestamp = models.DateField(auto_now_add=True)
-    data = JSONField()
+	timestamp = models.DateField(auto_now_add=True)
+	data = JSONField()
+
+	def __str__(self) -> str:
+		return str(self.timestamp)
+
+class Url(models.Model):
+	city = models.ForeignKey('City', on_delete=models.CASCADE,
+								verbose_name='Город')
+	language = models.ForeignKey('Language', on_delete=models.CASCADE,
+								verbose_name='Язык программирования')
+	url_data = JSONField(default=default_urls)
+
+	class Meta:
+		unique_together = ('city', 'language')

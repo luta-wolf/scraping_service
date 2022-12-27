@@ -17,7 +17,7 @@ headers = [
 def pars_hh(url):
 	jobs = []
 	errors = []
-	url = 'https://hh.ru/search/vacancy?search_field=name&search_field=company_name&search_field=description&text=Python+developer'
+	# url = 'https://hh.ru/search/vacancy?search_field=name&search_field=company_name&search_field=description&text=Python+developer'
 	resp = requests.get(url, headers=headers[randint(0, 2)])
 	if resp.status_code == 200:
 		soup = BS(resp.content, 'html.parser')
@@ -39,7 +39,7 @@ def pars_hh(url):
 def pars_habr(url):
 	jobs = []
 	errors = []
-	url = 'https://career.habr.com/vacancies?q=python+developer&l=1&type=all'
+	# url = 'https://career.habr.com/vacancies?q=python+developer&l=1&type=all'
 	domain = 'https://career.habr.com/'
 	resp = requests.get(url, headers=headers[randint(0, 2)])
 	if resp.status_code == 200:
@@ -62,7 +62,7 @@ def pars_habr(url):
 def pars_job(url):
 	jobs = []
 	errors = []
-	url = 'https://russia.superjob.ru/vacancy/search/?keywords=Python%20developer'
+	# url = 'https://russia.superjob.ru/vacancy/search/?keywords=Python%20developer'
 	domain = 'https://russia.superjob.ru'
 	resp = requests.get(url, headers=headers[randint(0, 2)])
 	if resp.status_code == 200:
