@@ -180,5 +180,5 @@
 
 - `006 - 009` Сбор данных и финализировние с сайтов `habr.com` и `superjob.ru`
 - `010` - Сбор данных со всех трех сайтов
-<img width="1728" alt="image" src="https://user-images.githubusercontent.com/58044383/209632027-6a654b6f-40d7-4c1e-bad2-7794803a0d83.png">
+<img width="1288" alt="image" src="https://user-images.githubusercontent.com/58044383/209632443-d2141eda-875f-4289-8a6f-0ad24236906a.png">
 </details>
