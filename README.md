@@ -52,6 +52,7 @@
 - `pip install django` - установка последней версии django (в качестве бибилиотеки)
 - `pip install requests` - установка библиотеки `requests`
 - `pip install bs4` - установка библиотеки `beautiful soup`
+- `pip install django-jsonfield-backport` - установка библиотеки для сохранения `json`полей в бд `sqlite3`
 - `pip install ipython` - установка ipython (прокаченный интерпретатора), который работает с внутренней структоурой django и базой данных
 ### Запуск и работа с проектом
 - `python manage.py makemigrations` - создаем миргации (будущие таблицы в БД)
@@ -178,11 +179,14 @@
 - `005` Финализируем функционал для `hh.ru`
 <img width="1112" alt="image" src="https://user-images.githubusercontent.com/58044383/209480231-62d6a4ca-80df-40dd-9c26-2b90f7140a6e.png">
 
-- `006 - 009` Сбор данных и финализировние с сайтов `habr.com` и `superjob.ru`
+- `006 - 009` Сбор данных и финализировние с сайтов `habr.com`, `career.habr.com` и `superjob.ru`
 - `010` - Сбор данных со всех трех сайтов
 <img width="1288" alt="image" src="https://user-images.githubusercontent.com/58044383/209632443-d2141eda-875f-4289-8a6f-0ad24236906a.png">
 
 - `011` Запуск Django вне самого проекта.
 - `012` Сохранение полученных вакансий в БД
 <img width="1465" alt="image" src="https://user-images.githubusercontent.com/58044383/209659708-dfc9ef6c-460e-40f7-bfab-225b87111886.png">
+
+`012` Модель `Error` для сохранения ошибок
+<img width="802" alt="image" src="https://user-images.githubusercontent.com/58044383/209666430-81ab2ec0-ae29-47bb-892c-70e5322a5680.png">
 </details>

@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'scraping',                     # регестрируем наше приложение
     'accounts',                     # регестрируем второе наше приложение
+    "django_jsonfield_backport",
 ]
 
 MIDDLEWARE = [

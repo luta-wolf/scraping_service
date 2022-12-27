@@ -1,4 +1,5 @@
 from django.db import models
+from django.db.models import JSONField
 from . utils import from_cyrillic_to_eng
 
 # Create your models here.
@@ -70,3 +71,6 @@ class Vacancy(models.Model):
 	def __str__(self) -> str:
 		return self.title
 
+class Error(models.Model):
+    timestamp = models.DateField(auto_now_add=True)
+    data = JSONField()

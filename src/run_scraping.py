@@ -10,7 +10,7 @@ import django
 django.setup()
 
 from scraping.parsers import *
-from scraping.models import Vacancy, City, Language
+from scraping.models import Vacancy, City, Language, Error
 
 parsers = ((pars_hh, 'https://kazan.hh.ru/search/vacancy?area=113&search_field=name&salary=455000&text=Python+developer&ored_clusters=true&enable_snippets=true'),
 			(pars_habr, 'https://career.habr.com/vacancies?q=python%20developer&s[]=2&s[]=82&s[]=4&type=all'),
@@ -32,6 +32,9 @@ for job in jobs:
 		v.save()
 	except DatabaseError:
 		pass
+
+if errors:
+	er = Error(data=errors).save()
 
 # file = codecs.open('hh.txt', 'w', 'utf-8')
 # for job in jobs:
