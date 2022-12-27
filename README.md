@@ -192,7 +192,9 @@
 
 - `014` Несоответствие библиотеки jsonfield для Django 3.1.+
 - `015` Как и где хранить адреса для парсеров.
-- `016` Модель Url
+- `016` Модель `Url` для парсинга по разным наборам Город-Язык
 <img width="809" alt="image" src="https://user-images.githubusercontent.com/58044383/209675177-398de9da-7614-41e7-bc5e-3b063b4307b6.png">
 
+- `017` Получение уникальных наборов пар город-ЯП, из таблицы с пользователями
+<img width="1352" alt="image" src="https://user-images.githubusercontent.com/58044383/209679929-c926f976-4bce-4d56-a658-c66e86599fd6.png">
 </details>

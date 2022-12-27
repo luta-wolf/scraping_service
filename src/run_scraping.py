@@ -1,5 +1,6 @@
 import codecs
 import os, sys
+from django.contrib.auth import get_user_model
 from django.db import DatabaseError
 
 proj = os.path.dirname(os.path.abspath('manage.py'))
@@ -12,10 +13,19 @@ django.setup()
 from scraping.parsers import *
 from scraping.models import Vacancy, City, Language, Error
 
+User = get_user_model()
+
 parsers = ((pars_hh, 'https://kazan.hh.ru/search/vacancy?area=113&search_field=name&text=Python+developer&ored_clusters=true&enable_snippets=true'),
 			(pars_habr, 'https://career.habr.com/vacancies?q=python%20developer&s[]=2&s[]=82&s[]=4&type=all'),
 			(pars_job, 'https://russia.superjob.ru/vacancy/search/?keywords=Python%20developer')
 		)
+
+def get_settings():
+	qs = User.objects.filter(send_email=True).values()
+	settings_lst = set((q['city_id'], q['language_id']) for q in qs)
+	return settings_lst
+
+q = get_settings()
 
 city = City.objects.filter(slug='moskva').first()
 language = Language.objects.filter(slug = 'python').first()
