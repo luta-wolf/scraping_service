@@ -184,5 +184,5 @@
 
 - `011` Запуск Django вне самого проекта.
 - `012` Сохранение полученных вакансий в БД
-
+<img width="1465" alt="image" src="https://user-images.githubusercontent.com/58044383/209659708-dfc9ef6c-460e-40f7-bfab-225b87111886.png">
 </details>
