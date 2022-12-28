@@ -197,4 +197,9 @@
 
 - `017` Получение уникальных наборов пар город-ЯП, из таблицы с пользователями
 <img width="1352" alt="image" src="https://user-images.githubusercontent.com/58044383/209679929-c926f976-4bce-4d56-a658-c66e86599fd6.png">
+
+- `018` Получения набора урлов, согласно данных от пользователей.
+- `019` Запуск функций скрапинга с полученными из БД данными
+<img width="1293" alt="image" src="https://user-images.githubusercontent.com/58044383/209764927-8c9bbdea-f5b6-42bc-8e1b-2ae2b4a16c4a.png">
+
 </details>
