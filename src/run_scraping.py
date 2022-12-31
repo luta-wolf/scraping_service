@@ -2,6 +2,7 @@ import codecs
 import os, sys
 from django.contrib.auth import get_user_model
 from django.db import DatabaseError
+# import asyncio
 
 proj = os.path.dirname(os.path.abspath('manage.py'))
 sys.path.append(proj)
@@ -49,17 +50,24 @@ url_list = get_urls(settings)
 
 # city = City.objects.filter(slug='moskva').first()
 # language = Language.objects.filter(slug = 'python').first()
-
+import time
+start = time.time()
 jobs, errors = [], []
 
-# for data in url_list:
-#
-#     for func, key in parsers:
-#         url = data['url_data'][key]
-#         j, e = func(url, city=data['city'], language=data['language'])
-#         jobs += j
-#         errors += e
+# loop = asyncio.get_event_loop()
+# tmp_tasks = [(func, data.get(key), data['city'], data['language'])
+# 			for data in url_list
+# 			for func, key in parsers]
+# tasks = asyncio.wait([loop.create_task(main(f)) for f in tmp_tasks])
 
+for data in url_list:
+
+	for func, key in parsers:
+		url = data['url_data'][key]
+		j, e = func(url, city=data['city'], language=data['language'])
+		jobs += j
+		errors += e
+print(time.time() - start)
 for job in jobs:
 	v = Vacancy(**job)
 	try:

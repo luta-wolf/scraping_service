@@ -203,5 +203,6 @@
 <img width="1293" alt="image" src="https://user-images.githubusercontent.com/58044383/209764927-8c9bbdea-f5b6-42bc-8e1b-2ae2b4a16c4a.png">
 
 - `019` Несколько слов об асинхронном запуске функций
+- `020` Несколько слов об асинхронном запуске функций
 
 </details>
