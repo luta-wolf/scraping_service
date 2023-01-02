@@ -2,7 +2,7 @@ import codecs
 import os, sys
 from django.contrib.auth import get_user_model
 from django.db import DatabaseError
-# import asyncio
+import asyncio
 
 proj = os.path.dirname(os.path.abspath('manage.py'))
 sys.path.append(proj)
@@ -26,6 +26,8 @@ parsers = ((pars_hh, 'hh'),
 # 			(pars_habr, 'https://career.habr.com/vacancies?q=python%20developer&s[]=2&s[]=82&s[]=4&type=all'),
 # 			(pars_job, 'https://russia.superjob.ru/vacancy/search/?keywords=Python%20developer')
 # 		)
+jobs, errors = [], []
+
 
 def get_settings():
 	qs = User.objects.filter(send_email=True).values()
@@ -44,6 +46,11 @@ def get_urls(_settings):
 		urls.append(tmp)
 	return urls
 
+# async def main(value):
+# 	func, url, city, language = value
+# 	job, err = await loop.run_in_executor(None, func, url, city, language)
+# 	errors.append(err)
+# 	jobs.append(job)
 
 settings = get_settings()
 url_list = get_urls(settings)
@@ -52,13 +59,15 @@ url_list = get_urls(settings)
 # language = Language.objects.filter(slug = 'python').first()
 import time
 start = time.time()
-jobs, errors = [], []
+
 
 # loop = asyncio.get_event_loop()
 # tmp_tasks = [(func, data.get(key), data['city'], data['language'])
 # 			for data in url_list
 # 			for func, key in parsers]
+
 # tasks = asyncio.wait([loop.create_task(main(f)) for f in tmp_tasks])
+
 
 for data in url_list:
 
@@ -68,6 +77,7 @@ for data in url_list:
 		jobs += j
 		errors += e
 print(time.time() - start)
+
 for job in jobs:
 	v = Vacancy(**job)
 	try:
