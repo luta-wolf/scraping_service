@@ -220,9 +220,9 @@
 </details>
 
 <details>
-<summary>Часть 7 - Кабинеи пользователя</summary>
+<summary>Часть 7 - Кабинет пользователя</summary>
 
 - `001` - Форма для входа пользователя.
 - `002` - Функции входа\выхода пользователя.
-<img width="889" alt="image" src="https://user-images.githubusercontent.com/58044383/210251615-3f6e0d8e-5d46-4e36-9d86-61cea1264392.png">
+<img width="1022" alt="image" src="https://user-images.githubusercontent.com/58044383/210251919-fe626c3a-cc84-46db-8bd8-586a644dd896.png">
 </details>
