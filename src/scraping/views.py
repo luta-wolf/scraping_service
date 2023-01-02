@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.core.paginator import Paginator
 
 from . forms import FindForm
 from . models import Vacancy
@@ -16,7 +17,7 @@ def list_view(request):
 	form = FindForm()
 	city = request.GET.get('city')
 	language = request.GET.get('language')
-	qs = []
+	page_obj = []
 	if city or language:
 		_filter = {}
 		if city:
@@ -25,5 +26,9 @@ def list_view(request):
 			_filter['language__slug'] = language
 
 		qs = Vacancy.objects.filter(**_filter)
-	return render(request, 'scraping/list.html', {'object_list': qs,
+		paginator = Paginator(qs, 10) # Show 10 contacts per page.
+
+		page_number = request.GET.get('page')
+		page_obj = paginator.get_page(page_number)
+	return render(request, 'scraping/list.html', {'object_list': page_obj,
 													'form': form})

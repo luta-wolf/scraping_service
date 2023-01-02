@@ -4,13 +4,13 @@
 
 {% block content %}
 <div class="row">
-	<div class="col"><h2>Сервис по сбору и рассылки вакансий.</h2>
+	<div class="col"><h2 class="text-center  my-3">Сервис по сбору и рассылки вакансий.</h2>
 	</div>
 </div>
 <div class="row">
-	<h5>Для просмотра доступных вакансий, заполните форму по одному из полей
+	<div class="col-md-8 mx-auto">
+		<h5 class="text-center my-2">Для просмотра доступных вакансий, заполните форму по одному из полей
 		(либо город, либо язык программирования).</h5>
-	<div class="col-md-4 mx-auto">
 		<form method="GET" action="{% url 'list' %}">
 			<div class="form-group">
 				{{ form.as_p  }}
