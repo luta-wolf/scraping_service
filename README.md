@@ -216,5 +216,5 @@
 <img width="1291" alt="image" src="https://user-images.githubusercontent.com/58044383/210199642-5763a138-f205-41b9-b537-f282b2be1e0a.png">
 
 - `003` - Пагинация. Улучшение отображения с помощью Bootstrap.
-
+<img width="1261" alt="image" src="https://user-images.githubusercontent.com/58044383/210205322-a926aca7-092b-4bad-9f69-3ef2c024bff2.png">
 </details>
