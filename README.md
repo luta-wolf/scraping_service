@@ -218,3 +218,11 @@
 - `003` - Пагинация. Улучшение отображения с помощью Bootstrap.
 <img width="1261" alt="image" src="https://user-images.githubusercontent.com/58044383/210205322-a926aca7-092b-4bad-9f69-3ef2c024bff2.png">
 </details>
+
+<details>
+<summary>Часть 7 - Кабинеи пользователя</summary>
+
+- `001` - Форма для входа пользователя.
+- `002` - Функции входа\выхода пользователя.
+<img width="889" alt="image" src="https://user-images.githubusercontent.com/58044383/210251615-3f6e0d8e-5d46-4e36-9d86-61cea1264392.png">
+</details>
