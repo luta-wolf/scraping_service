@@ -22,3 +22,21 @@ class UserLoingForm(forms.Form):
 			if not user:
 				raise forms.ValidationError("Данный аккаунт отключен!")
 		return super(UserLoingForm, self).clean(*args, **kwargs)
+
+class UserRegistrationForm(forms.ModelForm):
+	email = forms.CharField(label='Введите email',
+		widget=forms.EmailInput(attrs={'class': 'form-control'}))
+	password = forms.CharField(label='Введите пароль',
+		widget=forms.PasswordInput(attrs={'class': 'form-control'}))
+	password2 = forms.CharField(label='Введите пароль еще раз',
+		widget=forms.PasswordInput(attrs={'class': 'form-control'}))
+
+	class Meta:
+		model = User
+		fields = ('email', )
+
+	def clean_password2(self):
+		data = self.cleaned_data
+		if data['password'] != data['password2']:
+			raise forms.ValidationError("Пароли не совпадают!")
+		return data['password2']

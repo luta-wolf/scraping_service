@@ -8,7 +8,7 @@
 - как работает Django и как работают его компонеты между собой
 - запускать процессы вне Django
 - пользоваться бибилиотеками `requests` и `beautiful soup`
-- для оформления интерфейса воспользуемся [Bootstrap](https://getbootstrap.com/)
+- для оформления интерфейса воспользуемся [Bootstrap](https://getbootstrap.com/) и [здесь на русском](https://bootstrap-4.ru/)
 - разместим наш сайт на сервисе [heroku](https://www.heroku.com/) чтобы он был виден всем
 
 ### IDE
@@ -53,7 +53,7 @@
 - `pip install requests` - установка библиотеки `requests`
 - `pip install bs4` - установка библиотеки `beautiful soup`
 - `pip install django-jsonfield-backport` - установка библиотеки для сохранения `json`полей в бд `sqlite3`
-- `pip install ipython` - установка ipython (прокаченный интерпретатора), который работает с внутренней структоурой django и базой данных
+- `pip install ipython` - установка ipython (прокаченный интерпретатора), который работает с внутренней структурой django и базой данных
 ### Запуск и работа с проектом
 - `python manage.py makemigrations` - создаем миргации (будущие таблицы в БД)
 - `python manage.py migrate` - запуск миграций (базовые настройки для БД)
@@ -225,4 +225,10 @@
 - `001` - Форма для входа пользователя.
 - `002` - Функции входа\выхода пользователя.
 <img width="1022" alt="image" src="https://user-images.githubusercontent.com/58044383/210251919-fe626c3a-cc84-46db-8bd8-586a644dd896.png">
+
+- `003` - Регистрация нового пользователя. Форма.
+- `004` - Функция для регистрации нового пользователя.
+<img width="974" alt="image" src="https://user-images.githubusercontent.com/58044383/210389629-ef3f9af1-a2bd-4242-b9c7-90108afd6d91.png">
+
+- `004` - Функция для регистрации нового пользователя.
 </details>
