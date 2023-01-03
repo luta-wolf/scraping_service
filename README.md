@@ -230,5 +230,6 @@
 - `004` - Функция для регистрации нового пользователя.
 <img width="974" alt="image" src="https://user-images.githubusercontent.com/58044383/210389629-ef3f9af1-a2bd-4242-b9c7-90108afd6d91.png">
 
-- `004` - Функция для регистрации нового пользователя.
+- `005` - Форма для изменения настроек пользователя.
+<img width="1087" alt="image" src="https://user-images.githubusercontent.com/58044383/210401686-fceb27b7-fc96-4b42-b8cb-5f4b39f028dd.png">
 </details>
