@@ -37,6 +37,7 @@ def get_settings():
 def get_urls(_settings):
 	qs = Url.objects.all().values()
 	url_dct = {(q['city_id'], q['language_id']): q['url_data'] for q in qs}
+	# print(url_dct)
 	urls = []
 	for pair in _settings:
 		tmp = {}
@@ -46,11 +47,6 @@ def get_urls(_settings):
 		urls.append(tmp)
 	return urls
 
-# async def main(value):
-# 	func, url, city, language = value
-# 	job, err = await loop.run_in_executor(None, func, url, city, language)
-# 	errors.append(err)
-# 	jobs.append(job)
 
 settings = get_settings()
 url_list = get_urls(settings)
@@ -60,22 +56,27 @@ url_list = get_urls(settings)
 import time
 start = time.time()
 
+async def main(value):
+	func, url, city, language = value
+	job, err = await loop.run_in_executor(None, func, url, city, language)
+	errors.append(err)
+	jobs.append(job)
 
-# loop = asyncio.get_event_loop()
-# tmp_tasks = [(func, data.get(key), data['city'], data['language'])
-# 			for data in url_list
-# 			for func, key in parsers]
+loop = asyncio.get_event_loop()
+tmp_tasks = [(func, data.get(key), data['city'], data['language'])
+			for data in url_list
+			for func, key in parsers]
 
-# tasks = asyncio.wait([loop.create_task(main(f)) for f in tmp_tasks])
+tasks = asyncio.wait([loop.create_task(main(f)) for f in tmp_tasks])
 
 
-for data in url_list:
+# for data in url_list:
 
-	for func, key in parsers:
-		url = data['url_data'][key]
-		j, e = func(url, city=data['city'], language=data['language'])
-		jobs += j
-		errors += e
+# 	for func, key in parsers:
+# 		url = data['url_data'][key]
+# 		j, e = func(url, city=data['city'], language=data['language'])
+# 		jobs += j
+# 		errors += e
 print(time.time() - start)
 
 for job in jobs:
