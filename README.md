@@ -55,10 +55,10 @@
 - `pip install django-jsonfield-backport` - установка библиотеки для сохранения `json`полей в бд `sqlite3`
 - `pip install ipython` - установка ipython (прокаченный интерпретатора), который работает с внутренней структурой django и базой данных
 ### Запуск и работа с проектом
+- `django-admin startproject <name_project> .` - создание проекта django
+- `python manage.py startapp <name_project> .` - создание приложения в самом django (их может быть много)
 - `python manage.py makemigrations` - создаем миргации (будущие таблицы в БД)
 - `python manage.py migrate` - запуск миграций (базовые настройки для БД)
-- `django-admin startproject <name_project> .` - установка django (в качестве приложения)
-- `python manage.py startapp <name_project> .` - установка django (в качестве приложения)
 - `python manage.py createsuperuser` - создание суперюзера
 - `python manage.py runserver` - запуск проекта в браузере `http://127.0.0.1:8000/`
 - `python manage.py shell` - запуск интерпретатора, который работает с внутренней структурой django и базой данных
