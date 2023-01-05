@@ -76,6 +76,8 @@
 - [bootstrap color](https://getbootstrap.com/docs/5.2/customize/color/#theme-colors) - цветовая палитра bootstrap
 - [MATERIAL DESIGN color](https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors) - цветовая палитра MD
 - [MATERIAL DESIGN 3](https://m3.material.io/styles/color/overview) - цветовая палитра MD3
+- [mailgun](https://www.mailgun.com/) и [sendgrid](https://sendgrid.com/)- сервисы по отправке писем
+- [freenom](https://www.freenom.com/) - бесплатные домены
 
 </details>
 
@@ -242,4 +244,12 @@
 <img width="1438" alt="image" src="https://user-images.githubusercontent.com/58044383/210752119-cfca16b2-a625-4604-ada7-f4c778198daa.png">
 <img width="1431" alt="image" src="https://user-images.githubusercontent.com/58044383/210753529-66f2c8b7-4d0f-41eb-a658-f1c661ffc60a.png">
 
+</details>
+
+<details>
+<summary>Часть 8 - Кабинет пользователя</summary>
+
+- `001` - Рассылка писем. Какие есть варианты.
+	1. использовать службы по рассылки писем (`mailgun` или `sendgrid`) и быть готовым кому-то что то доказыать, создавать белые списки
+	2. использовать возможности django (`send_mail()`) и вместе с тем для этого нужно иметь свой почтовый сервер
 </details>

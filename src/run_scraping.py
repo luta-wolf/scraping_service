@@ -62,7 +62,8 @@ async def main(value):
 	errors.append(err)
 	jobs.append(job)
 
-loop = asyncio.get_event_loop()
+loop = asyncio.new_event_loop()
+asyncio.set_event_loop(loop)
 tmp_tasks = [(func, data.get(key), data['city'], data['language'])
 			for data in url_list
 			for func, key in parsers]
