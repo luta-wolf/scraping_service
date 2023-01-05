@@ -237,4 +237,9 @@
 - `006` - Изменение данных. Удаление пользователя.
 <img width="1426" alt="image" src="https://user-images.githubusercontent.com/58044383/210713491-6b190ffa-d0fb-4653-91eb-3c0feede308c.png">
 <img width="1437" alt="image" src="https://user-images.githubusercontent.com/58044383/210713436-46353927-bd30-49a1-93a1-3624cc7baf7d.png">
+
+- `007` - Система информирования messages.
+<img width="1438" alt="image" src="https://user-images.githubusercontent.com/58044383/210752119-cfca16b2-a625-4604-ada7-f4c778198daa.png">
+<img width="1431" alt="image" src="https://user-images.githubusercontent.com/58044383/210753529-66f2c8b7-4d0f-41eb-a658-f1c661ffc60a.png">
+
 </details>
