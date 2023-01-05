@@ -13,6 +13,9 @@
 			</div>
 			<button type="submit" class="btn btn-primary" style="background-color: #26C6DA;">Сохранить</button>
 		</form>
+		<form method="POST" action="{% url 'accounts:delete' %}">{% csrf_token %}
+			<button type="submit" class="btn btn-danger my-2" style="background-color: #ca6666;">Удалить</button>
+		</form>
 	</div>
 </div>
 

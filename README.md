@@ -75,6 +75,7 @@
 - [Django fun](https://django.fun/) - документация на русском
 - [bootstrap color](https://getbootstrap.com/docs/5.2/customize/color/#theme-colors) - цветовая палитра bootstrap
 - [MATERIAL DESIGN color](https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors) - цветовая палитра MD
+- [MATERIAL DESIGN 3](https://m3.material.io/styles/color/overview) - цветовая палитра MD3
 
 </details>
 
@@ -232,4 +233,8 @@
 
 - `005` - Форма для изменения настроек пользователя.
 <img width="1087" alt="image" src="https://user-images.githubusercontent.com/58044383/210401686-fceb27b7-fc96-4b42-b8cb-5f4b39f028dd.png">
+
+- `006` - Изменение данных. Удаление пользователя.
+<img width="1426" alt="image" src="https://user-images.githubusercontent.com/58044383/210713491-6b190ffa-d0fb-4653-91eb-3c0feede308c.png">
+<img width="1437" alt="image" src="https://user-images.githubusercontent.com/58044383/210713436-46353927-bd30-49a1-93a1-3624cc7baf7d.png">
 </details>
