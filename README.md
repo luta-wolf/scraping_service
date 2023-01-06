@@ -52,6 +52,7 @@
 - `pip install django` - установка последней версии django (в качестве бибилиотеки)
 - `pip install requests` - установка библиотеки `requests`
 - `pip install bs4` - установка библиотеки `beautiful soup`
+- `pip install python-dotenv` - считывает пары ключ-значение из файла .env и может устанавливать их как переменные среды. 
 - `pip install django-jsonfield-backport` - установка библиотеки для сохранения `json`полей в бд `sqlite3`
 - `pip install ipython` - установка ipython (прокаченный интерпретатора), который работает с внутренней структурой django и базой данных
 ### Запуск и работа с проектом
@@ -78,6 +79,7 @@
 - [MATERIAL DESIGN 3](https://m3.material.io/styles/color/overview) - цветовая палитра MD3
 - [mailgun](https://www.mailgun.com/) и [sendgrid](https://sendgrid.com/)- сервисы по отправке писем
 - [freenom](https://www.freenom.com/) - бесплатные домены
+- [data-flair](https://data-flair.training/blogs/django-send-email/) - туторил как отправлять письма в джанго
 
 </details>
 
@@ -252,4 +254,7 @@
 - `001` - Рассылка писем. Какие есть варианты.
 	- 1. использовать службы по рассылки писем (`mailgun` или `sendgrid`) и быть готовым кому-то что то доказыать, создавать белые списки
 	- 2. использовать возможности django (`send_mail()`) и вместе с тем для этого нужно иметь свой почтовый сервер
+
+- `001` - Настройки, необходимые для отправки писем через gmail
+
 </details>
