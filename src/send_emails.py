@@ -23,8 +23,18 @@ if user_dct:
 	for pair in user_dct.keys():
 		params['city_id__in'].append(pair[0])
 		params['language_id__in'].append(pair[1])
-	qs = Vacancy.objects.filter(**params)[:10]
-
+	qs = Vacancy.objects.filter(**params).values()
+	vacancies = {}
+	for i in qs:
+		vacancies.setdefault((i['city_id'], i['language_id']), [])
+		vacancies[(i['city_id'], i['language_id'])].append(i)
+	for keys, emails in user_dct.items():
+		rows = vacancies.get(keys, [])
+		html = ''
+		for row in rows:
+			html += f'<h5><a href="{ row["url"] }">{ row["title"] }</a></h5>'
+			html += f'<p>{ row["description"] }</p>'
+			html += f'<p>{ row["company"] }</p><br><hr>'
 
 # Отправка писем подписчикам. Начальный функционал.
 subject, from_email, to = 'hello', 'from@example.com', 'to@example.com'

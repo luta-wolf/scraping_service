@@ -6,7 +6,7 @@ from . models import City, Language, Vacancy, Error, Url
 class VacancyAdmin(admin.ModelAdmin):
 	list_display = ('title', 'company', 'language', 'timestamp')
 	list_display_links = ('title',)
-	search_fields = ('title', 'company', 'timestamp')
+	search_fields = ('title', 'company')
 
 
 admin.site.register(City)
